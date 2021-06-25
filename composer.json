@@ -1,0 +1,22 @@
+{
+    "name": "blackdog/interface",
+    "description": "Interface of BLACKDOG",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Blackdog\\": "."
+        }
+    },
+    "authors": [
+        {
+            "name": "ProfessorJamesBach",
+            "email": "mxhugoxm@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "clancats/hydrahon": "^1.1",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.4"
+    }
+}

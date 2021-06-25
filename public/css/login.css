@@ -1,0 +1,74 @@
+.container {
+  width: 70%;
+  margin: 10rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container form {
+  width: 100%;
+}
+
+.container .form-login {
+  width: 15rem;
+  margin: auto;
+}
+
+.container .form-login .form-group {
+  width: 100%;
+}
+
+.container .form-login .form-group .submit-group button {
+  cursor: pointer;
+  border: none;
+  font-size: 1.2em;
+  background: #F2A922;
+  padding: 5px 20px;
+  border-radius: 50px;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.container .form-login .form-group .submit-group button:hover {
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container .form-login .form-group .input-group {
+  margin: 0 0 10px;
+}
+
+.container .form-login .form-group .input-group input {
+  border: 1px solid #37403A;
+  border-radius: 35px;
+  padding: 10px;
+  width: 100%;
+}
+
+.container .form-login .tips {
+  width: 100%;
+}
+
+.container .form-login .tips .tooltips {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .form-login .tips .tooltips:last-child {
+  margin: auto;
+}
+
+.container .form-login .tips * {
+  color: gray;
+  font-size: small;
+}
+/*# sourceMappingURL=login.css.map */

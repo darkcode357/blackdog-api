@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+header {
+  z-index: 999;
+  max-width: 100%;
+  width: 100%;
+  position: fixed;
+  height: auto;
+  padding: 10px;
+  background: #37403A;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.75);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.75);
+}
+
+header * {
+  color: #FFFDF6 !important;
+  font-weight: 700;
+}
+
+header .navbar {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .icon .menuToggle {
+  display: none;
+}
+
+header .navbar .icon .menuToggle:checked ~ label .hamburguer {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+header .navbar .icon .menuToggle:checked ~ label .hamburguer::before {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: 0;
+}
+
+header .navbar .icon .menuToggle:checked ~ label .hamburguer::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: 0;
+}
+
+header .navbar .icon .icon-burguer {
+  padding: 10px;
+  cursor: pointer;
+}
+
+header .navbar .icon .hamburguer {
+  position: relative;
+  display: block;
+  background: #FFFDF6;
+  width: 30px;
+  height: 2px;
+  margin: 15px 10px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header .navbar .icon .hamburguer::after, header .navbar .icon .hamburguer::before {
+  background: #FFFDF6;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header .navbar .icon .hamburguer:before {
+  top: -10px;
+}
+
+header .navbar .icon .hamburguer:after {
+  bottom: -10px;
+}
+
+header .navbar .menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+header .navbar .menu-items li {
+  padding: 0 20px;
+}
+
+header .navbar .user {
+  margin: 0 40px;
+}
+
+header .navbar .user p > a {
+  text-decoration: none;
+}
+
+header .navbar .user p > a:hover {
+  color: #F2A922 !important;
+}
+
+.menuOn {
+  position: absolute;
+  left: 0 !important;
+}
+
+.menuOff {
+  position: absolute;
+  left: -500px !important;
+}
+
+.menu {
+  position: absolute;
+  z-index: 1;
+  left: -500px;
+  background: #262223;
+  height: 100%;
+  padding: 0 70px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.menu * {
+  color: #FFFDF6;
+}
+
+.menu .items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+.menu .items ul li {
+  margin: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  header .navbar .menu-items {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */
