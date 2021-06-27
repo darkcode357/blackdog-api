@@ -23,7 +23,6 @@ class MySQL{
     private const PASS = '';
     private const CHAR = 'utf8';
     private const SCHEMA = '';
-
     public function getConnection(){
         $connection = new \PDO('mysql:host=localhost;dbname=my_database;charset=utf8', 'username', 'password');
 

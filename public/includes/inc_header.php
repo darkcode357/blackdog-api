@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="./css/pallete.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/core.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 <header id="__header">
@@ -21,9 +23,9 @@
             </label>
         </div>
         <ul class="menu-items">
-            <li>Exemplo 1</li>
-            <li>Exemplo 2</li>
-            <li>Exemplo 3</li>
+            <li>What it is?</li>
+            <li>Products</li>
+            <li>Pricing</li>
         </ul>
         <div class="user">
             <p>
@@ -42,9 +44,9 @@
 <div class="menu" id="lateralMenu">
     <div class="items">
         <ul>
-            <li>Exemplo 1</li>
-            <li>Exemplo 2</li>
-            <li>Exemplo 3</li>
+            <li><a href="" class="text-decoration-none"><span class="material-icons">account_circle</span></a></li>
+            <li><a href="" class="text-decoration-none">Dashboard</a></li>
+            <li><a href="" class="text-decoration-none">Pricing</a></li>
         </ul>
     </div>
 </div>

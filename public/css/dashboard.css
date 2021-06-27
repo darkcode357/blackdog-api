@@ -1,0 +1,21 @@
+.navbar.dashboard ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+.navbar.dashboard ul li {
+  margin: 10px 5px;
+  border: 1px solid gray;
+  width: 100px;
+  height: 25px;
+  padding: 10px 10px 3px;
+  border-radius: 50px;
+  text-align: center;
+}
+/*# sourceMappingURL=dashboard.css.map */

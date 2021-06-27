@@ -1,0 +1,17 @@
+.navbar.dashboard {
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        li {
+            margin: 10px 5px;
+            border: 1px solid gray;
+            width: 100px;
+            height: 25px;
+            padding: 10px 10px 3px;
+            border-radius: 50px;
+            text-align: center;
+
+        }
+    }
+}

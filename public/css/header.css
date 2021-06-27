@@ -151,6 +151,7 @@ header .navbar .user p > a:hover {
 }
 
 .menu .items ul li {
+  text-align: center;
   margin: 20px;
 }
 
